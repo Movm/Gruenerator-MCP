@@ -19,7 +19,7 @@ cd Gruenerator-MCP
 
 2. Install dependencies:
 ```bash
-npm install
+npm ci
 ```
 
 3. Set up environment variables:
@@ -31,6 +31,11 @@ cp .env.example .env
 4. Start the development server:
 ```bash
 npm run dev
+```
+
+5. Run the unit tests:
+```bash
+npm test
 ```
 
 ## How to Contribute
@@ -48,7 +53,7 @@ npm run dev
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
-4. Ensure the Docker build succeeds (`docker build -t test .`)
+4. Run `npm test` and ensure the Docker build succeeds (`docker build -t test .`)
 5. Commit your changes (`git commit -m 'Add amazing feature'`)
 6. Push to the branch (`git push origin feature/amazing-feature`)
 7. Open a Pull Request

@@ -8,7 +8,6 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that g
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -19,11 +18,6 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that g
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
-
-## Demo
-
-<!-- Add screenshot or GIF of MCP client using Gruenerator -->
-*Coming soon: Demo of search functionality in action*
 
 ## Features
 
@@ -81,7 +75,7 @@ git clone https://github.com/Movm/Gruenerator-MCP.git
 cd Gruenerator-MCP
 
 # Install dependencies
-npm install
+npm ci
 
 # Set environment variables
 cp .env.example .env

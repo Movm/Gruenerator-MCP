@@ -1,4 +1,4 @@
-FROM node:20-slim
+FROM node:22-slim
 
 # curl für Healthcheck installieren
 RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
@@ -22,7 +22,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Dependencies installieren
-RUN npm ci --only=production
+RUN npm ci --omit=dev
 
 # Source Code kopieren
 COPY src/ ./src/

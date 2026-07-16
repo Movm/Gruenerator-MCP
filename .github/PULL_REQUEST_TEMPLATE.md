@@ -16,6 +16,7 @@ Fixes #(issue number)
 - [ ] Self-reviewed my own code
 - [ ] Added/updated documentation as needed
 - [ ] Changes work locally
+- [ ] `npm test` passes
 - [ ] Docker build succeeds
 
 ## Screenshots (if applicable)
