@@ -1,4 +1,4 @@
-FROM node:20-slim
+FROM node:26-slim
 
 # curl für Healthcheck installieren
 RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
