@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/Movm/Gruenerator-MCP/compare/v2.1.0...v2.1.1) (2026-08-02)
+
+
+### Bug Fixes
+
+* **deps:** refresh transitive dependencies ([#7](https://github.com/Movm/Gruenerator-MCP/issues/7)) ([854da36](https://github.com/Movm/Gruenerator-MCP/commit/854da3673a4ed35c82ba0e02405b8d7352928a57))
+
 # [2.1.0](https://github.com/Movm/Gruenerator-MCP/compare/v2.0.0...v2.1.0) (2025-12-21)
 
 
