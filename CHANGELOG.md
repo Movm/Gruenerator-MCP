@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/Movm/Gruenerator-MCP/compare/v2.1.1...v2.1.2) (2026-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update runtime and release dependencies ([194179a](https://github.com/Movm/Gruenerator-MCP/commit/194179aec2de7847d599bb37fe8677d023ee8f54))
+
 ## [2.1.1](https://github.com/Movm/Gruenerator-MCP/compare/v2.1.0...v2.1.1) (2026-08-02)
 
 
